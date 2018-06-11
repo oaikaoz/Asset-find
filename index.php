@@ -33,7 +33,7 @@
           
           //document.getElementById("data").innerHTML = "<center><div class='loader'></div></center>";                                    
            
-            $.get("getContent?tag="+tag,	
+            $.get("getContent.php?tag="+tag,	
                             function(data,status){
                              document.getElementById("data").innerHTML = data;                                    
                       });
