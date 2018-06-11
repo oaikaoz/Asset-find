@@ -1,5 +1,6 @@
 <?php
-$homepage = file_get_contents('http://androidserver.ddns.net/findAsset/getContent.php?tag=BBD1799688');
-echo $homepage;
+$server = $_SERVER['SERVER_NAME'];
+$data = file_get_contents('http://'.$server.'/findAsset/getContent.php?tag=BBD1799688');
+echo $data;
 
 ?>
