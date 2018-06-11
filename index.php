@@ -33,7 +33,7 @@
           
           //document.getElementById("data").innerHTML = "<center><div class='loader'></div></center>";                                    
            
-            $.get("http://androidserver.ddns.net/findAsset/getContent.php?tag="+tag,	
+            $.get("getContent?tag="+tag,	
                             function(data,status){
                              document.getElementById("data").innerHTML = data;                                    
                       });
