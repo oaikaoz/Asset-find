@@ -18,11 +18,11 @@
 	canvas.drawing, canvas.drawingBuffer {position: absolute; left: 0; top: 0;}
       .head{
 		padding-left: 25px;
-		font-size: 17px;
+		font-size: 16px;
 		color:#777777;
       }
       .detail{ 
-		font-size: 15px; 
+		font-size: 14px; 
 		color:#cc5128;
       }
 		.lds-ripple {
