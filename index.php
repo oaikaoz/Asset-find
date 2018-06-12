@@ -198,8 +198,8 @@ $(function() {
 
 <div class="container" >
     <div class="row">
-        <div >
-            <div class="input-group">
+        <div>
+            <div>
                 <div id='data'></div>
             </div><!-- /input-group -->
         </div><!-- /.col-lg-6 -->
