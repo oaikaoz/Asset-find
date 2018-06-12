@@ -19,7 +19,7 @@
       .head{
 		padding-left: 25px;
 		font-size: 16px;
-		color:#777777;
+		color:#515050;
       }
       .detail{ 
 		font-size: 14px; 
