@@ -199,7 +199,7 @@ $(function() {
 
 <div class="container" >
     <div class="row">
-        <div class="col-lg-6" >
+        <div class="col-lg-12" >
             <div class="input-group">
                 <div id='data'></div>
             </div><!-- /input-group -->
