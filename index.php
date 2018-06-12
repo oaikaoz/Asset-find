@@ -17,6 +17,7 @@
 	#interactive.viewport > canvas, #interactive.viewport > video {max-width: 100%;width: 100%;}
 	canvas.drawing, canvas.drawingBuffer {position: absolute; left: 0; top: 0;}
       .head{
+		padding-left: 25px;
 		font-size: 13px;
 		color:#777777;
       }
