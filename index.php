@@ -25,35 +25,46 @@
 		font-size: 11px; 
 		color:#cc5128;
       }
-	  .loader {
-			text-align: center;
-			border: 16px solid #f3f3f3;
+		.lds-ripple {
+			display: inline-block;
+			position: relative;
+			width: 64px;
+			height: 64px;
+			}
+		.lds-ripple div {
+			position: absolute;
+			border: 4px solid #fff;
+			opacity: 1;
 			border-radius: 50%;
-			border-top: 16px solid blue;
-			border-right: 16px solid green;
-			border-bottom: 16px solid red;
-			width: 120px;
-			height: 120px;
-			-webkit-animation: spin 2s linear infinite;
-			animation: spin 2s linear infinite;
-		}
+			animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+			}
+		.lds-ripple div:nth-child(2) {
+			animation-delay: -0.5s;
+			}
+			@keyframes lds-ripple {
+			0% {
+				top: 28px;
+				left: 28px;
+				width: 0;
+				height: 0;
+				opacity: 1;
+			}
+			100% {
+				top: -1px;
+				left: -1px;
+				width: 58px;
+				height: 58px;
+				opacity: 0;
+			}
+			}
 
-		@-webkit-keyframes spin {
-		0% { -webkit-transform: rotate(0deg); }
-		100% { -webkit-transform: rotate(360deg); }
-		}
-
-		@keyframes spin {
-		0% { transform: rotate(0deg); }
-		100% { transform: rotate(360deg); }
-		}
 
 </style>
 <script type="text/javascript">
 
         function getData(tag){
           
-          document.getElementById("data").innerHTML = "<center><br><br><div class='loader'></div></center>";                                    
+          document.getElementById("data").innerHTML = "<center><br><br><div class='lds-ripple'><div></div><div></div></div></center>";                                    
            
             $.get("getContent.php?tag="+tag,	
                             function(data,status){
