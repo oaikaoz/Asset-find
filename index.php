@@ -64,7 +64,7 @@
 
         function getData(tag){
           
-          document.getElementById("data").innerHTML = "<center><br><br><div class='lds-ripple'><div></div><div></div></div></center>";                                    
+          document.getElementById("data").innerHTML = "<center><br><br><br><br><div class='lds-ripple'><div></div><div></div></div></center>";                                    
            
             $.get("getContent.php?tag="+tag,	
                             function(data,status){
