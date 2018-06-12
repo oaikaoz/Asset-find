@@ -52,7 +52,7 @@
 
         function getData(tag){
           
-          document.getElementById("data").innerHTML = "<center><div class='loader'></div></center>";                                    
+          document.getElementById("data").innerHTML = "<center><br><br><div class='loader'></div></center>";                                    
            
             $.get("getContent.php?tag="+tag,	
                             function(data,status){
