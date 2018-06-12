@@ -70,8 +70,6 @@
                             function(data,status){
                              document.getElementById("data").innerHTML = data;                                    
                       });
-                      
-                      //alert(tag);
           }
 
 
@@ -85,8 +83,6 @@ $(function() {
 				startOnFocus: false
 			}
         });
-        
-	// Create the QuaggaJS config object for the live stream
 	var liveStreamConfig = {
 			inputStream: {
 				type : "LiveStream",
@@ -109,8 +105,6 @@ $(function() {
 			},
 			locate: true
 		};
-	// The fallback to the file API requires a different inputStream option. 
-	// The rest is the same 
 	var fileConfig = $.extend(
 			{}, 
 			liveStreamConfig,
@@ -120,7 +114,7 @@ $(function() {
 				}
 			}
 		);
-	// Start the live stream scanner when the modal opens
+
 	$('#livestream_scanner').on('shown.bs.modal', function (e) {
 		Quagga.init(
 			liveStreamConfig, 
@@ -160,8 +154,7 @@ $(function() {
         }
         
     });
-   
-    
+     
 	Quagga.onDetected(function(result) {    		
 		if (result.codeResult.code){
 			$('#scanner_input').val(result.codeResult.code);
