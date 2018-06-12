@@ -16,38 +16,36 @@
 	#interactive.viewport {position: relative; width: 100%; height: auto; overflow: hidden; text-align: center;}
 	#interactive.viewport > canvas, #interactive.viewport > video {max-width: 100%;width: 100%;}
 	canvas.drawing, canvas.drawingBuffer {position: absolute; left: 0; top: 0;}
-    .head{
-      font-size: 13px;
-    
-      color:#777777;
+      .head{
+		font-size: 13px;
+		color:#777777;
       }
-      .detail{
-      font-size: 11px;
-    
-      color:#cc5128;
+      .detail{ 
+		font-size: 11px; 
+		color:#cc5128;
       }
 	  .loader {
-  text-align: center;
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid blue;
-  border-right: 16px solid green;
-  border-bottom: 16px solid red;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
+			text-align: center;
+			border: 16px solid #f3f3f3;
+			border-radius: 50%;
+			border-top: 16px solid blue;
+			border-right: 16px solid green;
+			border-bottom: 16px solid red;
+			width: 120px;
+			height: 120px;
+			-webkit-animation: spin 2s linear infinite;
+			animation: spin 2s linear infinite;
+		}
 
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
+		@-webkit-keyframes spin {
+		0% { -webkit-transform: rotate(0deg); }
+		100% { -webkit-transform: rotate(360deg); }
+		}
 
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
+		@keyframes spin {
+		0% { transform: rotate(0deg); }
+		100% { transform: rotate(360deg); }
+		}
 
 </style>
 <script type="text/javascript">
@@ -200,7 +198,7 @@ $(function() {
 
 <div class="container" >
     <div class="row">
-        <div class="col-lg-12" >
+        <div >
             <div class="input-group">
                 <div id='data'></div>
             </div><!-- /input-group -->
