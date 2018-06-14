@@ -243,11 +243,6 @@ $(function() {
         </div><!-- /.col-lg-6 -->
     </div><!-- /.row -->
 
-
-
-
-
-
     <div class="modal" id="livestream_scanner">
         <div class="modal-dialog">
             <div class="modal-content">
