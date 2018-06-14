@@ -276,9 +276,6 @@ $(function() {
 
 
 </div>
-
-
-<div class="fab"> <i class="glyphicon glyphicon-barcode"></i> </div>
 </body>
 </html>
 
