@@ -279,7 +279,7 @@ $(function() {
 
 
 
-<div class="fab">  <i class="glyphicon glyphicon-barcode" style='font-size:30px;'></i> </div>
+<div class="fab">  <i class="glyphicon glyphicon-barcode" style='font-size:35px;'></i> </div>
 </body>
 </html>
 
