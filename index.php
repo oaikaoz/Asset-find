@@ -66,9 +66,9 @@
 
 
 .fab {
-   width: 70px;
-   height: 70px;
-   background-color: #FD850C;
+   width: 50px;
+   height: 50px;
+   background-color: red;
    border-radius: 50%;
    box-shadow: 0 6px 10px 0 #666;
    
@@ -78,8 +78,8 @@
    text-align: center;
    
    position: fixed;
-   right: 30px;
-   bottom: 30px;
+   right: 50px;
+   bottom: 50px;
    
   transition: all 0.1s ease-in-out;
 }
@@ -276,10 +276,6 @@ $(function() {
 
 
 </div>
-
-
-
-<div class="fab">  <i class="glyphicon glyphicon-barcode" style='font-size:35px;'></i> </div>
 </body>
 </html>
 
