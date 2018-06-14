@@ -180,7 +180,7 @@ $(function() {
 });
 </script>
 
-<body  style='background-color: #b2b2b2; font-family: "Kanit", sans-serif;'>
+<body  style='background-color: #2E2E2E; font-family: "Kanit", sans-serif;'>
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
