@@ -68,7 +68,7 @@
 .fab {
    width: 70px;
    height: 70px;
-   background-color: ##FD850C;
+   background-color: #FD850C;
    border-radius: 50%;
    box-shadow: 0 6px 10px 0 #666;
    
@@ -78,8 +78,8 @@
    text-align: center;
    
    position: fixed;
-   right: 50px;
-   bottom: 50px;
+   right: 30px;
+   bottom: 30px;
    
   transition: all 0.1s ease-in-out;
 }
