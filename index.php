@@ -19,11 +19,11 @@
       .head{
 		padding-left: 25px;
 		font-size: 16px;
-		color:#515050;
+		color:#FDEEF4;
       }
       .detail{ 
 		font-size: 14px; 
-		color:#cc5128;
+		color:#f9e41c;
       }
 		.lds-ripple {
 			display: inline-block;
