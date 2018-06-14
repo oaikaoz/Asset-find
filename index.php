@@ -68,7 +68,7 @@
 .fab {
    width: 70px;
    height: 70px;
-   background-color: red;
+   background-color: ##FD850C;
    border-radius: 50%;
    box-shadow: 0 6px 10px 0 #666;
    
@@ -279,7 +279,7 @@ $(function() {
 
 
 
-<div class="fab"> + </div>
+<div class="fab">  <i class="glyphicon glyphicon-barcode"></i> </div>
 </body>
 </html>
 
